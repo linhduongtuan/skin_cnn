@@ -13,11 +13,7 @@ For these examples I'm using the ISIC 2019 dataset from: [https://challenge2019.
 This is a publicly available curated set of >25K annotated images for eight different classes of skin lesions.
 
 #### Packages
-python
-pytorch
-torchvision
-scikit-learn
-tqdm
+python | pytorch | torchvision | scikit-learn | tqdm
 
 Dependancies:
   * scipy
@@ -26,8 +22,6 @@ Dependancies:
   * matplotlib
   * pillow (see below)
 
-Conflicts:
-  pytorch v1.4 and lower & pillow v7+ don't play nice together -- either use the pytorch nightlies (1.5 or higher) or force install pillow==6
+Conflicts: pytorch v1.4 and lower & pillow v7+ don't play nice together -- either use the pytorch nightlies (1.5 or higher) or force install pillow==6
   
-Runtimes:
-CUDA -- it's strongly recommended that training be done on GPU, otherwise it is S L O W
+Runtimes: CUDA -- it's strongly recommended that training be done on GPU, otherwise it is S L O W
