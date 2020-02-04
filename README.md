@@ -1,5 +1,5 @@
 # skin_cnn
-## Framework for Basic CNN-based Image Classification of ISIC 2019 Dataset
+## Basic Framework for CNN-based Image Classification of ISIC 2019 Dataset
 
 #### Here you can find two notebooks that go over basic implementation of image classification using convolutional neural networks (CNN) in Pytorch.
 
